@@ -1,0 +1,174 @@
+.contain{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  .sidebar i{
+    font-size: small;
+    margin-right: 10px;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 10px; /* Same as the width of the sidenav */
+    padding: 0px;
+    
+  }
+  .main img{
+    width: 100%;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .def{
+    margin-left: 10px; /* Same as the width of the sidenav */
+    padding: 0px;
+  }
+  .container {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    padding: 10px;
+  
+  }
+  .def_ai{
+    margin-right: 80px;
+    text-align: justify;
+  }
+  .container1{
+    margin-left: 85px; /* Same as the width of the sidenav */
+    padding: 0px;
+    margin-top:50px;
+  }
+  .container2{
+    margin-left: 85px; /* Same as the width of the sidenav */
+    padding: 0px;
+    margin-top:50px;
+    margin-right: 85px;
+  
+  }
+  .hm{
+    background-image: url(INDEXFONT.gif);
+    width:100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  
+  }
+  .emer p{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 100px;
+    color: rgb(225, 7, 7);
+  }
+  .emer button{
+    text-align: center;
+    font-size: 15px;
+    color:rgb(200, 203, 17);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: orange;
+    border-radius: 30px;
+  }
+  .tit{
+    padding: 10px;
+  }
+  .tit a{
+    float: right;
+    font-size: 20px;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 40px;
+    padding: 5px;
+  }
+  .abouttit{
+   text-align: center;
+  }
+  .footer{
+    text-align: center;
+    margin-top: 400px;
+    background-color: rgb(235, 110, 131);
+  }
+  .all{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(164, 235, 235);
+  }
+  .ai_background{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 179, 104);
+  }
+  .IoT_background{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 250, 117);
+  }
+  .AR_background{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 154, 237);
+  }
+  
+  .other_background{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(164, 209, 222);
+  }
+  
+  .oth{
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(229, 140, 192);
+  }
+  .NBB_background .card-header{
+    background-color: rgb(235, 237, 123);
+  }
+  .NBB_background .card-body{
+    background-color: rgb(125, 240, 238);
+  }
+  .container4 {
+    margin-left: 80px; /* Same as the width of the sidenav */
+    padding: 10px;
+  
+  }
+  .CAC_background .card-header{
+    background-color: rgb(214, 158, 230);
+  }
+  .CAC_background .card-body{
+    background-color: rgb(241, 231, 127);
+  }
+  .ECA_background .card-header{
+    background-color: rgb(241, 250, 148);
+  }
+  .ECA_background .card-body{
+    background-color: rgb(245, 189, 234);
+  }
+  
